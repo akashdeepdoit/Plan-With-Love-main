@@ -76,3 +76,49 @@ body{
 .description{
     font: weight 6px; ;
 }
+
+.read-more{
+    color: aqua;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: ;
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-white{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(176, 166, 166);
+}
+
+.btn-white:hover{
+    background-color: rgb(115, 108, 108);
+    color: rgb(245, 237, 237);
+    transition: all 0.2s;
+
+}
